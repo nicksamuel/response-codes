@@ -1,7 +1,6 @@
 import pandas
 import requests
 
-
 # Loads URLs into a Pandas Dataframe
 
 dataframe= pandas.read_csv('urls.csv')
@@ -29,11 +28,8 @@ dataframe['Status'] = dataframe['Status'].astype(int)
 
 # Prints out terminal
 
-
 print(dataframe)
 
 #Saves in CSV
 
 dataframe.to_csv('Statuscodes.csv')
-
-    
